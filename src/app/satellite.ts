@@ -1,4 +1,4 @@
-// import { truncate } from "fs";
+
 
 export class Satellite {
   name: string;
