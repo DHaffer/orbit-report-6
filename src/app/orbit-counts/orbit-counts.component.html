@@ -1,10 +1,10 @@
-<!-- <h3>Satellite Counts:</h3>
+<h3>Satellite Counts:</h3>
 <div class="counts">
-   <div>Total: <span>{{totalCount}}</span></div>
-   <div>Space Debris: <span>{{calculateTotalTypes(satellites, "Space Debris")}}</span></div>
-   <div>Communication: <span>{{1}}</span></div>
-   <div>Probe: <span>{{totalProbe}}</span></div>
-   <div>Positioning: <span>{{calculateTotalTypes(satellites, 'Positioning')}}</span></div>
-   <div>Space Station: <span>{{totalSpaceStation}}</span></div>
-   <div>Telescope: <span>{{totalTelescope}}</span></div>
-</div> -->
+   <div>Total: <span>{{findTotalOfAllTypes(satellites)}}</span></div>
+   <div>Space Debris: <span>{{countTypes(satellites, "Space Debris")}}</span></div>
+   <div>Communication: <span>{{countTypes(satellites, "Communication")}}</span></div>
+   <div>Probe: <span>{{countTypes(satellites, "Probe")}}</span></div>
+   <div>Positioning: <span>{{countTypes(satellites, 'Positioning')}}</span></div>
+   <div>Space Station: <span>{{countTypes(satellites, "Space Station")}}</span></div>
+   <div>Telescope: <span>{{countTypes(satellites, "Telescope")}}</span></div>
+</div>
